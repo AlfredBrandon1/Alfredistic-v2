@@ -18,22 +18,22 @@
     padding-bottom: 140px;
 }
 .profile-picture{
-    width: 75%;
+    width: 80%;
 }
 .about-intro{
     text-align: justify;
-    font-size: 20px;
+    font-size: 19px;
+    padding: 1em;
 }
 .view-resume{
     text-decoration: none;
-}
-/* end of about section */
+}/* end of about section */
 
 /* SKILL section */
 .skill-section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 100vh;
     padding: 100px;
 }/* end of SKILL section */
@@ -68,16 +68,15 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 20px 0px;
+    padding-top: 50px;
 }
 
 .contact-section img {
-    height: 10%;
+    height: 8%;
 }
 .my-contact-list{
-    font-size: 15px;
+    font-size: 1em;
 }
 
 /*mobile and tablet view*/
