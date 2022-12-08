@@ -43,8 +43,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 13vh;
 }
 .project-image{
     height: auto;
@@ -102,5 +101,8 @@
     .contact-section{
         height: auto;
         padding-bottom: 50px;
+    }
+    .projects-section{
+        padding: 10vh;
     }
 }
