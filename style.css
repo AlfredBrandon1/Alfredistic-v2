@@ -1,0 +1,103 @@
+* {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.carousel-item {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: rgb(186,251,172);
+    background: linear-gradient(153deg, rgba(186,251,172,1) 7%, rgba(35,217,172,1) 52%, rgba(0,212,255,1) 98%);
+}
+/* ABOUT section */
+.about-section{
+    height: 100vh;
+    padding-top: 140px; 
+    padding-bottom: 140px;
+}
+.profile-picture{
+    width: 75%;
+}
+.about-intro{
+    text-align: justify;
+    font-size: 20px;
+}
+.view-resume{
+    color: black;
+    text-decoration: none;
+}
+/* end of about section */
+
+/* SKILL section */
+.skill-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+}/* end of SKILL section */
+
+/* PROJECTS section */
+.projects-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.project-image{
+    height: auto;
+    width: 60vh;
+    border-bottom: 3px solid green ;
+}
+.project-item{
+    border: 3px solid green ;
+    border-radius: 1%;
+    margin: 1em;
+}
+.projects-section p {
+    text-align: justify;
+    width: 60vh;
+    padding: 1em;
+}/* end of projects section  */
+
+
+/* CONTACT section */
+.contact-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section img {
+    height: 10%;
+}
+
+/*mobile and tablet view*/
+@media only screen and (max-width:1000px) and (min-width:1px){
+    .carousel-item {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+    .skill-section{
+        height: auto;
+    }
+    .about-section{
+        display: flex;
+        flex-direction: column;
+        padding:80px 0px;
+        height: auto;
+    }
+    .profile-picture{
+        width: 50%;
+    }
+    .contact-section{
+        height: auto;
+        padding-bottom: 50px;
+    }
+}

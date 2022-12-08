@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alfredistic</title>
+    <!-- css file -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- header -->
+    <header class="bg-dark fixed-top px-5 py-3 d-flex justify-content-between align-self-center">
+        <p class="h5 text-light"> Alfredistic | <span class="h6"> Web Portfolio </span> </p>
+    </header>
+    <!-- Carousel -->
+    <main id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators ">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <!-- START of carousel -->
+        <div class="carousel-inner">
+            <!-- ABOUT ME section -->
+            <section class=" carousel-item " id="about">
+                <div
+                    class=" about-section container d-flex justify-content-center align-items-center text-center text-bg-light">
+                    <div class="carousel-caption">
+                        <h5>About me</h5>
+                    </div>
+                    <div class="w-100">
+                        <img class=" profile-picture rounded-circle" src="images/profile-picture.png"
+                            alt="profile pic" />
+                    </div>
+                    <div class=" w-100">
+                        <p class="h1 m-2">Alfred Calawa</p>
+                        <a class="m-1" href="https://www.mongodb.com/mern-stack"> MERN stack web developer</a>
+                        <hr class=" bg-white" />
+                        <p class="about-intro p-1">
+                            Hello! I`m Alfred from Baguio City, Philippines. </p>
+                        <p class="about-intro p-1">
+                            A solution-driven web developer bearing the skills needed for a collaborative working
+                            environment. Familiar with the best practices of web development.
+                        </p>
+                        <p class="about-intro p-1">
+                            As a startup, I am willing to learn new knowledge and skill, and also share my own knowledge
+                            .
+                            If you think I can help you, please contact me.
+                        </p>
+                        <hr class=" bg-white" />
+                        <p class="p-1">
+                            <a class=" btn btn-primary view-resume text-left"
+                                href="https://drive.google.com/file/d/19gcqE02fgMMjTCiLv_9mAdcgtJ9rK8nJ/view?usp=sharing"
+                                target="_blank">
+                                View my resume
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- SKILLS section -->
+            <section class="carousel-item" id="skills">
+                <div class="skill-section container p-5 ">
+                    <div class=" text-center mt-3">
+                        <img class="skill-icon w-50 " src="https://img.icons8.com/color/280/null/html-5--v1.png"
+                            alt="html-icon" />
+                        <p> HTML5 </p>
+                    </div>
+                    <div class=" text-center mt-3 ">
+                        <img class="skill-icon w-50" src="https://img.icons8.com/color/280/null/css3.png"
+                            alt="css-icon" />
+                        <p> CSS </p>
+                    </div>
+                    <div class=" text-center mt-3">
+                        <img class="skill-icon w-50" src="https://img.icons8.com/color/280/null/javascript--v1.png"
+                            alt="js-icon" />
+                        <p> Vanilla JavaScript </p>
+                    </div>
+                    <div class=" text-center mt-3">
+                        <img class="skill-icon w-50" src="https://img.icons8.com/color/280/null/git.png"
+                            alt="git-icon" />
+                        <p> Git </p>
+                    </div>
+                    <div class=" text-center mt-3">
+                        <img class="skill-icon w-50" src="https://img.icons8.com/color/280/null/bootstrap.png"
+                            alt="bootsrap-icon" />
+                        <p> Boostrap </p>
+                    </div>
+                    <div class=" text-center mt-3">
+                        <img class="skill-icon w-50" src="https://img.icons8.com/color/280/null/mongodb.png"
+                            alt="mongodb-icon" />
+                        <p> Mongo DB </p>
+                    </div>
+                    <div class=" text-center mt-3">
+                        <img class="skill-icon w-50" src="https://img.icons8.com/office/280/null/express-js.png"
+                            alt="ExpressAPI-icon" />
+                        <p> Express API </p>
+                    </div>
+                    <div class=" text-center mt-3">
+                        <img class="skill-icon w-50" src="https://img.icons8.com/officel/280/null/react.png"
+                            alt="ReactJS-icon" />
+                        <p> React JS </p>
+                    </div>
+                    <div class=" text-center mt-3">
+                        <img class="skill-icon w-50" src="https://img.icons8.com/color/280/null/nodejs.png"
+                            alt="NodeJS-icon" />
+                        <p> Node JS </p>
+                    </div>
+                </div>
+                <div class="carousel-caption">
+                    <h5>Skills</h5>
+                </div>
+            </section>
+            <!------- PROJECTS section ------->
+            <section class="carousel-item active" id="projects">
+                <div class="carousel-caption">
+                    <h5>Projects</h5>
+                </div>
+                <div class="projects-section container text-justify text-center">
+                    <div class="project-item">
+                        <img class="project-image" src="images/gallery-images/game-project.png" alt="game-project">
+                        <p>
+                            Igoroute is
+                            a simple quiz game about the Cordillera region
+                            in northern Philippines.I am part of this
+                            project as creative designer.
+                        </p>
+                        <div class="p-2"> 
+                            <img src="https://img.icons8.com/ios-filled/28/null/rocket.png" /> <a
+                                href="https://drive.google.com/drive/folders/1z3L66ehS0kyCxO_oMGE47FqS8firIpvE" target="_blank"> Installer </a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img class="project-image" src="images/gallery-images/project-1.PNG" alt="project-1">
+                        <p> Web Portfolio Version 1 - the first version of this web portolio, made using HTML5 and CSS3.
+                        </p>
+                        <div class="p-2"> 
+                            <img src="https://img.icons8.com/ios-filled/28/null/github.png" /> <a
+                                href="https://github.com/AlfredBrandon1/alfredistic-portfolio" target="_blank">
+                                Code </a>
+                            <img href="" src="https://img.icons8.com/ios-filled/28/null/rocket.png" /> <a
+                                href="https://alfredbrandon1.github.io/alfredistic-portfolio/" target="_blank"> Deployed </a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img class="project-image" src="images/gallery-images/project-2.PNG" alt="project-2">
+                        <p> JavaScript Game
+                            - Mortal Kombat inspired game with a twist, made using HTML5, CSS3, and
+                            JavaScript.
+                        </p>
+                        <div class="p-2"> 
+                            <img src="https://img.icons8.com/ios-filled/28/null/github.png" /> <a
+                                href="https://github.com/AlfredBrandon1/mortal_kombat_rock_scissors_paper" target="_blank">
+                                Code </a>
+                            <img href="" src="https://img.icons8.com/ios-filled/28/null/rocket.png" /> <a
+                                href="https://alfredbrandon1.github.io/mortal_kombat_rock_scissors_paper/" target="_blank">  Deployed </a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img class="project-image" src="images/gallery-images/project-3.PNG" alt="project-3">
+                        <p> DokBoook - a standalone frontend ReactJS app for patient management system for doctors,
+                            clinic and hospital management. Made using ReactJS, HTML5, CSS3.
+                        </p>
+                        <div class="p-2"> 
+                            <img src="https://img.icons8.com/ios-filled/28/null/github.png" /> <a
+                                href="https://github.com/AlfredBrandon1/DokBook" target="_blank">
+                                Code </a>
+                            <img href="" src="https://img.icons8.com/ios-filled/28/null/rocket.png" /> <a
+                                href="https://alfredbrandon1.github.io/DokBook/" target="_blank"> Deployed </a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img class="project-image" src="images/gallery-images/project-5.PNG" alt="project-5">
+                        <p> LandLordify - a full stack MERN app for landlords or property owners to manage their rental
+                            properties efficiently. <br />Made using MongoDB, ReactJS, NodeJS, Express API, HTML5 and
+                            CSS3</p>
+                            <div class="p-2"> 
+                                <img src="https://img.icons8.com/ios-filled/28/null/github.png" /> <a
+                                    href="https://github.com/AlfredBrandon1/Landlordify" target="_blank">
+                                    Code </a>
+                                <img href="" src="https://img.icons8.com/ios-filled/28/null/rocket.png" /> <a
+                                    href="https://github.com/AlfredBrandon1/Landlordify" target="_blank"> Deployed </a>
+                            </div>
+                    </div>
+                    <div class="project-item">
+                        <img class="project-image" src="images/gallery-images/project-6.PNG" alt="project-6">
+                        <p> Petly - a full stack MERN social media app specifically for pet owners for them to post all
+                            about their pets.
+                            Made using MongoDB, ReactJS, NodeJS, Express API, HTML5 and CSS3<br /> This project was done
+                            in collaboration with Ms. Roz Dalope and Mr. RJ Andres
+                        </p>
+                        <div class="p-2"> 
+                            <img src="https://img.icons8.com/ios-filled/28/null/github.png" /> <a
+                                href="https://github.com/rjandres-sky/petly-app" target="_blank">
+                                Code </a>
+                            <img href="" src="https://img.icons8.com/ios-filled/28/null/rocket.png" /> <a
+                                href="https://github.com/rjandres-sky/petly-app" target="_blank"> Deployed </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- CONTACT section -->
+            <section class=" contact-section carousel-item" id="contact">
+                <div class="carousel-caption">
+                    <h5>Contact Me</h5>
+                </div>
+                <div class=" contact-section">
+                    <!--Section description-->
+                    <p class="text-center w-responsive mt-5">Do you have any questions? Please do not hesitate
+                        to
+                        contact me directly. </p>
+                    <div class="col-md-9 h-100 w-50">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <label for="name" class="">Your name</label>
+                                        <input type="text" id="name" name="name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <label for="email" class="">Your email</label>
+                                        <input type="text" id="email" name="email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <label for="subject" class="">Subject</label>
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <label for="message">Your message</label>
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary d-flex justify-content-center my-2"> send
+                            </button>
+                        </form>
+                        <div class="d-flex justify-content-center  ">
+                            <ul class="list-unstyled text-center">
+                                <li class=" d-flex flex-row">
+                                    <img src="https://img.icons8.com/material/48/null/user-location--v1.png" />
+                                    <p> Baguio City 2600, Philippines </p>
+                                </li>
+                                <li class=" d-flex  flex-row">
+                                    <img src="https://img.icons8.com/material/48/null/phone--v1.png" />
+                                    <p>+6946 755 1290</p>
+                                </li>
+                                <li class="  d-flex flex-row">
+                                    <img src="https://img.icons8.com/material/48/null/email-sign.png" />
+                                    <p>calawa.alfredbrandon@gmail.com</p>
+                                </li>
+                                <li class=" d-flex flex-row ">
+                                    <img src="https://img.icons8.com/material/48/null/linkedin--v1.png"
+                                        class="img-fluid" />
+                                    <a href="www.linkedin.com/in/alfred-calawa">Linkedin.com/in/alfred-calawa</a>
+                                </li>
+                            </ul>
+                        </div>
+            </section>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </main>
+    <!-- FOOTER -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 bg-dark text-light">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <p class="text-left mt-3 text-muted">© 2022 Calawa, Alfred Brandon</p>
+        </div>
+        <ul class="d-flex justify-content-end list-unstyled flex-column m-3">
+            <li class="text-right mt-3 mx-4 text-muted "> UPLIFT CodeCamp </li>
+            <li class="text-right mt-3 mx-4 text-muted "> DICT North Luzon Cluster</li>
+        </ul>
+    </footer>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
