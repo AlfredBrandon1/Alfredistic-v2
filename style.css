@@ -1,6 +1,6 @@
 * {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
+}
 
 .carousel-item {
     background: no-repeat center center scroll;
@@ -10,6 +10,15 @@
     background-size: cover;
     background: rgb(186,251,172);
     background: linear-gradient(153deg, rgba(186,251,172,1) 7%, rgba(35,217,172,1) 52%, rgba(0,212,255,1) 98%);
+}
+.carousel-indicators{
+    position: relative;
+    top: 80px;
+}
+.carousel-caption {
+    position: relative;
+    font-weight: bolder;
+    top:15px;
 }
 /* ABOUT section */
 .about-section{
@@ -34,8 +43,9 @@
 .skill-section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 100vh;
+    padding: 100px;
 }/* end of SKILL section */
 
 /* PROJECTS section */
@@ -43,7 +53,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 .project-image{
@@ -70,6 +80,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px 0px;
 }
 
 .contact-section img {
