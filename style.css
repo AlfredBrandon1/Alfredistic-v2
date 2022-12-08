@@ -11,15 +11,6 @@
     background: rgb(186,251,172);
     background: linear-gradient(153deg, rgba(186,251,172,1) 7%, rgba(35,217,172,1) 52%, rgba(0,212,255,1) 98%);
 }
-.carousel-indicators{
-    position: relative;
-    top: 80px;
-}
-.carousel-caption {
-    position: relative;
-    font-weight: bolder;
-    top:15px;
-}
 /* ABOUT section */
 .about-section{
     height: 100vh;
@@ -34,7 +25,6 @@
     font-size: 20px;
 }
 .view-resume{
-    color: black;
     text-decoration: none;
 }
 /* end of about section */
@@ -80,11 +70,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0px;
+    padding: 20px 0px;
 }
 
 .contact-section img {
     height: 10%;
+}
+.my-contact-list{
+    font-size: 15px;
 }
 
 /*mobile and tablet view*/
